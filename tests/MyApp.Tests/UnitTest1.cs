@@ -1,10 +1,14 @@
-namespace MyApp.Tests;
+using Xunit;
+using MyApp;
 
-public class UnitTest1
+public class MyClassTests
 {
-    [Fact]
-    public void Test1()
-    {
 
-    }
+    [Fact]
+    public void Display_Correctenss()
+  {
+        var car = new Car("Toyota", "Corolla", 2020);
+        Assert.Equal("Toyota", car.Make);
+        Assert.Equal("Corolla", car.Model); 
+  }
 }
