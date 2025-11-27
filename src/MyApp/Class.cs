@@ -1,4 +1,4 @@
-namespace MyApp;
+
 
 public class Car
 {

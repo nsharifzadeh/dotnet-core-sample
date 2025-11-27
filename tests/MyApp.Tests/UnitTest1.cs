@@ -1,5 +1,5 @@
 using Xunit;
-using MyApp;
+
 
 public class MyClassTests
 {
